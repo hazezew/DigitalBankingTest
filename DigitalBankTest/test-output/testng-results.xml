@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
+  <reporter-output>
+    <line>
+      <![CDATA[Passed : mangmenAgentstLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : agentListLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : staffAgentListLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : registerAgentLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : manageMerchantsLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : merchantListLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : registerMerchantLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : manageCustomersLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : listCustomersLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : registerCustomersLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : airtimeLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : startBulkAirtimeLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : financialSettlementLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : merchantBillSettlementLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : agentCommissionTransactionLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : transactionExceptionsLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : walletFundsLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : fundWalletLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : manageTransactionRuleLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : listTransactionRuleLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : registerTransactionRuleLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : reportsLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : manageAdminUsersLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : rolesLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : usersLink()]]>
+    </line>
+    <line>
+      <![CDATA[Passed : changePasswordLink()]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="134734" started-at="2019-06-11T05:34:15Z" finished-at="2019-06-11T05:36:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="134734" started-at="2019-06-11T05:34:15Z" finished-at="2019-06-11T05:36:30Z">
+      <class name="TestCases.LinkCheck">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.LinkCheck@33c7e1bb]" name="login" is-config="true" duration-ms="31307" started-at="2019-06-11T05:34:15Z" finished-at="2019-06-11T05:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="mangmenAgentstLink()[pri:1, instance:TestCases.LinkCheck@33c7e1bb]" name="mangmenAgentstLink" duration-ms="3978" started-at="2019-06-11T05:34:46Z" finished-at="2019-06-11T05:34:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : mangmenAgentstLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mangmenAgentstLink -->
+        <test-method status="PASS" signature="agentListLink()[pri:2, instance:TestCases.LinkCheck@33c7e1bb]" name="agentListLink" duration-ms="2982" started-at="2019-06-11T05:34:50Z" depends-on-methods="TestCases.LinkCheck.mangmenAgentstLink" finished-at="2019-06-11T05:34:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : agentListLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- agentListLink -->
+        <test-method status="PASS" signature="staffAgentListLink()[pri:3, instance:TestCases.LinkCheck@33c7e1bb]" name="staffAgentListLink" duration-ms="2719" started-at="2019-06-11T05:34:53Z" depends-on-methods="TestCases.LinkCheck.mangmenAgentstLink" finished-at="2019-06-11T05:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : staffAgentListLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- staffAgentListLink -->
+        <test-method status="PASS" signature="registerAgentLink()[pri:4, instance:TestCases.LinkCheck@33c7e1bb]" name="registerAgentLink" duration-ms="3332" started-at="2019-06-11T05:34:56Z" depends-on-methods="TestCases.LinkCheck.mangmenAgentstLink" finished-at="2019-06-11T05:34:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : registerAgentLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAgentLink -->
+        <test-method status="PASS" signature="manageMerchantsLink()[pri:5, instance:TestCases.LinkCheck@33c7e1bb]" name="manageMerchantsLink" duration-ms="3683" started-at="2019-06-11T05:34:59Z" finished-at="2019-06-11T05:35:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : manageMerchantsLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- manageMerchantsLink -->
+        <test-method status="PASS" signature="merchantListLink()[pri:6, instance:TestCases.LinkCheck@33c7e1bb]" name="merchantListLink" duration-ms="2927" started-at="2019-06-11T05:35:03Z" depends-on-methods="TestCases.LinkCheck.manageMerchantsLink" finished-at="2019-06-11T05:35:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : merchantListLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- merchantListLink -->
+        <test-method status="PASS" signature="registerMerchantLink()[pri:7, instance:TestCases.LinkCheck@33c7e1bb]" name="registerMerchantLink" duration-ms="2804" started-at="2019-06-11T05:35:06Z" depends-on-methods="TestCases.LinkCheck.manageMerchantsLink" finished-at="2019-06-11T05:35:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : registerMerchantLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerMerchantLink -->
+        <test-method status="PASS" signature="manageCustomersLink()[pri:8, instance:TestCases.LinkCheck@33c7e1bb]" name="manageCustomersLink" duration-ms="4638" started-at="2019-06-11T05:35:09Z" finished-at="2019-06-11T05:35:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : manageCustomersLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- manageCustomersLink -->
+        <test-method status="PASS" signature="listCustomersLink()[pri:9, instance:TestCases.LinkCheck@33c7e1bb]" name="listCustomersLink" duration-ms="2654" started-at="2019-06-11T05:35:13Z" depends-on-methods="TestCases.LinkCheck.manageCustomersLink" finished-at="2019-06-11T05:35:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : listCustomersLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listCustomersLink -->
+        <test-method status="PASS" signature="registerCustomersLink()[pri:10, instance:TestCases.LinkCheck@33c7e1bb]" name="registerCustomersLink" duration-ms="2957" started-at="2019-06-11T05:35:16Z" depends-on-methods="TestCases.LinkCheck.manageCustomersLink" finished-at="2019-06-11T05:35:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : registerCustomersLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerCustomersLink -->
+        <test-method status="PASS" signature="airtimeLink()[pri:11, instance:TestCases.LinkCheck@33c7e1bb]" name="airtimeLink" duration-ms="4552" started-at="2019-06-11T05:35:19Z" finished-at="2019-06-11T05:35:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : airtimeLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- airtimeLink -->
+        <test-method status="PASS" signature="startBulkAirtimeLink()[pri:12, instance:TestCases.LinkCheck@33c7e1bb]" name="startBulkAirtimeLink" duration-ms="2677" started-at="2019-06-11T05:35:23Z" depends-on-methods="TestCases.LinkCheck.airtimeLink" finished-at="2019-06-11T05:35:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : startBulkAirtimeLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBulkAirtimeLink -->
+        <test-method status="PASS" signature="financialSettlementLink()[pri:13, instance:TestCases.LinkCheck@33c7e1bb]" name="financialSettlementLink" duration-ms="4665" started-at="2019-06-11T05:35:26Z" finished-at="2019-06-11T05:35:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : financialSettlementLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- financialSettlementLink -->
+        <test-method status="PASS" signature="merchantBillSettlementLink()[pri:14, instance:TestCases.LinkCheck@33c7e1bb]" name="merchantBillSettlementLink" duration-ms="2714" started-at="2019-06-11T05:35:31Z" depends-on-methods="TestCases.LinkCheck.financialSettlementLink" finished-at="2019-06-11T05:35:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : merchantBillSettlementLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- merchantBillSettlementLink -->
+        <test-method status="PASS" signature="agentCommissionTransactionLink()[pri:15, instance:TestCases.LinkCheck@33c7e1bb]" name="agentCommissionTransactionLink" duration-ms="2709" started-at="2019-06-11T05:35:34Z" depends-on-methods="TestCases.LinkCheck.financialSettlementLink" finished-at="2019-06-11T05:35:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : agentCommissionTransactionLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- agentCommissionTransactionLink -->
+        <test-method status="PASS" signature="transactionExceptionsLink()[pri:16, instance:TestCases.LinkCheck@33c7e1bb]" name="transactionExceptionsLink" duration-ms="2838" started-at="2019-06-11T05:35:36Z" depends-on-methods="TestCases.LinkCheck.financialSettlementLink" finished-at="2019-06-11T05:35:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : transactionExceptionsLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- transactionExceptionsLink -->
+        <test-method status="PASS" signature="walletFundsLink()[pri:17, instance:TestCases.LinkCheck@33c7e1bb]" name="walletFundsLink" duration-ms="4669" started-at="2019-06-11T05:35:39Z" finished-at="2019-06-11T05:35:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : walletFundsLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- walletFundsLink -->
+        <test-method status="PASS" signature="fundWalletLink()[pri:18, instance:TestCases.LinkCheck@33c7e1bb]" name="fundWalletLink" duration-ms="2558" started-at="2019-06-11T05:35:44Z" depends-on-methods="TestCases.LinkCheck.walletFundsLink" finished-at="2019-06-11T05:35:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : fundWalletLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fundWalletLink -->
+        <test-method status="PASS" signature="manageTransactionRuleLink()[pri:19, instance:TestCases.LinkCheck@33c7e1bb]" name="manageTransactionRuleLink" duration-ms="4665" started-at="2019-06-11T05:35:46Z" finished-at="2019-06-11T05:35:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : manageTransactionRuleLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- manageTransactionRuleLink -->
+        <test-method status="PASS" signature="listTransactionRuleLink()[pri:20, instance:TestCases.LinkCheck@33c7e1bb]" name="listTransactionRuleLink" duration-ms="2984" started-at="2019-06-11T05:35:51Z" depends-on-methods="TestCases.LinkCheck.manageTransactionRuleLink" finished-at="2019-06-11T05:35:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : listTransactionRuleLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listTransactionRuleLink -->
+        <test-method status="PASS" signature="registerTransactionRuleLink()[pri:21, instance:TestCases.LinkCheck@33c7e1bb]" name="registerTransactionRuleLink" duration-ms="4086" started-at="2019-06-11T05:35:54Z" depends-on-methods="TestCases.LinkCheck.manageTransactionRuleLink" finished-at="2019-06-11T05:35:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : registerTransactionRuleLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerTransactionRuleLink -->
+        <test-method status="PASS" signature="reportsLink()[pri:22, instance:TestCases.LinkCheck@33c7e1bb]" name="reportsLink" duration-ms="4545" started-at="2019-06-11T05:35:58Z" finished-at="2019-06-11T05:36:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : reportsLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportsLink -->
+        <test-method status="PASS" signature="manageAdminUsersLink()[pri:23, instance:TestCases.LinkCheck@33c7e1bb]" name="manageAdminUsersLink" duration-ms="4684" started-at="2019-06-11T05:36:03Z" finished-at="2019-06-11T05:36:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : manageAdminUsersLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- manageAdminUsersLink -->
+        <test-method status="PASS" signature="rolesLink()[pri:24, instance:TestCases.LinkCheck@33c7e1bb]" name="rolesLink" duration-ms="2867" started-at="2019-06-11T05:36:07Z" depends-on-methods="TestCases.LinkCheck.manageAdminUsersLink" finished-at="2019-06-11T05:36:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : rolesLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- rolesLink -->
+        <test-method status="PASS" signature="usersLink()[pri:24, instance:TestCases.LinkCheck@33c7e1bb]" name="usersLink" duration-ms="3877" started-at="2019-06-11T05:36:10Z" depends-on-methods="TestCases.LinkCheck.manageAdminUsersLink" finished-at="2019-06-11T05:36:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : usersLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- usersLink -->
+        <test-method status="PASS" signature="changePasswordLink()[pri:25, instance:TestCases.LinkCheck@33c7e1bb]" name="changePasswordLink" duration-ms="5228" started-at="2019-06-11T05:36:14Z" finished-at="2019-06-11T05:36:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed : changePasswordLink()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- changePasswordLink -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestCases.LinkCheck@33c7e1bb]" name="logout" is-config="true" duration-ms="10311" started-at="2019-06-11T05:36:19Z" finished-at="2019-06-11T05:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestCases.LinkCheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

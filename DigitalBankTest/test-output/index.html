@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\hazezew\AppData\Local\Temp\testng-eclipse--363087494\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="agentCommissionTransactionLink">agentCommissionTransactionLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="agentListLink">agentListLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="airtimeLink">airtimeLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="changePasswordLink">changePasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="financialSettlementLink">financialSettlementLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="fundWalletLink">fundWalletLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="listCustomersLink">listCustomersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="listTransactionRuleLink">listTransactionRuleLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="manageAdminUsersLink">manageAdminUsersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="manageCustomersLink">manageCustomersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="manageMerchantsLink">manageMerchantsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="manageTransactionRuleLink">manageTransactionRuleLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="mangmenAgentstLink">mangmenAgentstLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="merchantBillSettlementLink">merchantBillSettlementLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="merchantListLink">merchantListLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="registerAgentLink">registerAgentLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="registerCustomersLink">registerCustomersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="registerMerchantLink">registerMerchantLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="registerTransactionRuleLink">registerTransactionRuleLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="reportsLink">reportsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="rolesLink">rolesLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="staffAgentListLink">staffAgentListLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="startBulkAirtimeLink">startBulkAirtimeLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="transactionExceptionsLink">transactionExceptionsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="usersLink">usersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.LinkCheck" hash-for-method="walletFundsLink">walletFundsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LinkCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="agentCommissionTransactionLink">
+                  </a> <!-- agentCommissionTransactionLink -->
+                  <span class="method-name">agentCommissionTransactionLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="agentListLink">
+                  </a> <!-- agentListLink -->
+                  <span class="method-name">agentListLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airtimeLink">
+                  </a> <!-- airtimeLink -->
+                  <span class="method-name">airtimeLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordLink">
+                  </a> <!-- changePasswordLink -->
+                  <span class="method-name">changePasswordLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="financialSettlementLink">
+                  </a> <!-- financialSettlementLink -->
+                  <span class="method-name">financialSettlementLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundWalletLink">
+                  </a> <!-- fundWalletLink -->
+                  <span class="method-name">fundWalletLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listCustomersLink">
+                  </a> <!-- listCustomersLink -->
+                  <span class="method-name">listCustomersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listTransactionRuleLink">
+                  </a> <!-- listTransactionRuleLink -->
+                  <span class="method-name">listTransactionRuleLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="manageAdminUsersLink">
+                  </a> <!-- manageAdminUsersLink -->
+                  <span class="method-name">manageAdminUsersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="manageCustomersLink">
+                  </a> <!-- manageCustomersLink -->
+                  <span class="method-name">manageCustomersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="manageMerchantsLink">
+                  </a> <!-- manageMerchantsLink -->
+                  <span class="method-name">manageMerchantsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="manageTransactionRuleLink">
+                  </a> <!-- manageTransactionRuleLink -->
+                  <span class="method-name">manageTransactionRuleLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mangmenAgentstLink">
+                  </a> <!-- mangmenAgentstLink -->
+                  <span class="method-name">mangmenAgentstLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="merchantBillSettlementLink">
+                  </a> <!-- merchantBillSettlementLink -->
+                  <span class="method-name">merchantBillSettlementLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="merchantListLink">
+                  </a> <!-- merchantListLink -->
+                  <span class="method-name">merchantListLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAgentLink">
+                  </a> <!-- registerAgentLink -->
+                  <span class="method-name">registerAgentLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerCustomersLink">
+                  </a> <!-- registerCustomersLink -->
+                  <span class="method-name">registerCustomersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerMerchantLink">
+                  </a> <!-- registerMerchantLink -->
+                  <span class="method-name">registerMerchantLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTransactionRuleLink">
+                  </a> <!-- registerTransactionRuleLink -->
+                  <span class="method-name">registerTransactionRuleLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reportsLink">
+                  </a> <!-- reportsLink -->
+                  <span class="method-name">reportsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rolesLink">
+                  </a> <!-- rolesLink -->
+                  <span class="method-name">rolesLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="staffAgentListLink">
+                  </a> <!-- staffAgentListLink -->
+                  <span class="method-name">staffAgentListLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startBulkAirtimeLink">
+                  </a> <!-- startBulkAirtimeLink -->
+                  <span class="method-name">startBulkAirtimeLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="transactionExceptionsLink">
+                  </a> <!-- transactionExceptionsLink -->
+                  <span class="method-name">transactionExceptionsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLink">
+                  </a> <!-- usersLink -->
+                  <span class="method-name">usersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="walletFundsLink">
+                  </a> <!-- walletFundsLink -->
+                  <span class="method-name">walletFundsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hazezew\AppData\Local\Temp\testng-eclipse--363087494\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.LinkCheck&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'changePasswordLink')
+data.setCell(0, 2, 'TestCases.LinkCheck')
+data.setCell(0, 3, 5228);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'manageAdminUsersLink')
+data.setCell(1, 2, 'TestCases.LinkCheck')
+data.setCell(1, 3, 4684);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'walletFundsLink')
+data.setCell(2, 2, 'TestCases.LinkCheck')
+data.setCell(2, 3, 4669);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'manageTransactionRuleLink')
+data.setCell(3, 2, 'TestCases.LinkCheck')
+data.setCell(3, 3, 4665);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'financialSettlementLink')
+data.setCell(4, 2, 'TestCases.LinkCheck')
+data.setCell(4, 3, 4665);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'manageCustomersLink')
+data.setCell(5, 2, 'TestCases.LinkCheck')
+data.setCell(5, 3, 4638);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'airtimeLink')
+data.setCell(6, 2, 'TestCases.LinkCheck')
+data.setCell(6, 3, 4552);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'reportsLink')
+data.setCell(7, 2, 'TestCases.LinkCheck')
+data.setCell(7, 3, 4545);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registerTransactionRuleLink')
+data.setCell(8, 2, 'TestCases.LinkCheck')
+data.setCell(8, 3, 4086);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'mangmenAgentstLink')
+data.setCell(9, 2, 'TestCases.LinkCheck')
+data.setCell(9, 3, 3978);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'usersLink')
+data.setCell(10, 2, 'TestCases.LinkCheck')
+data.setCell(10, 3, 3877);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'manageMerchantsLink')
+data.setCell(11, 2, 'TestCases.LinkCheck')
+data.setCell(11, 3, 3683);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'registerAgentLink')
+data.setCell(12, 2, 'TestCases.LinkCheck')
+data.setCell(12, 3, 3332);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'listTransactionRuleLink')
+data.setCell(13, 2, 'TestCases.LinkCheck')
+data.setCell(13, 3, 2984);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'agentListLink')
+data.setCell(14, 2, 'TestCases.LinkCheck')
+data.setCell(14, 3, 2982);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'registerCustomersLink')
+data.setCell(15, 2, 'TestCases.LinkCheck')
+data.setCell(15, 3, 2957);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'merchantListLink')
+data.setCell(16, 2, 'TestCases.LinkCheck')
+data.setCell(16, 3, 2927);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'rolesLink')
+data.setCell(17, 2, 'TestCases.LinkCheck')
+data.setCell(17, 3, 2867);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'transactionExceptionsLink')
+data.setCell(18, 2, 'TestCases.LinkCheck')
+data.setCell(18, 3, 2838);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'registerMerchantLink')
+data.setCell(19, 2, 'TestCases.LinkCheck')
+data.setCell(19, 3, 2804);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'staffAgentListLink')
+data.setCell(20, 2, 'TestCases.LinkCheck')
+data.setCell(20, 3, 2719);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'merchantBillSettlementLink')
+data.setCell(21, 2, 'TestCases.LinkCheck')
+data.setCell(21, 3, 2714);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'agentCommissionTransactionLink')
+data.setCell(22, 2, 'TestCases.LinkCheck')
+data.setCell(22, 3, 2709);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'startBulkAirtimeLink')
+data.setCell(23, 2, 'TestCases.LinkCheck')
+data.setCell(23, 3, 2677);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'listCustomersLink')
+data.setCell(24, 2, 'TestCases.LinkCheck')
+data.setCell(24, 3, 2654);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'fundWalletLink')
+data.setCell(25, 2, 'TestCases.LinkCheck')
+data.setCell(25, 3, 2558);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">reportsLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : reportsLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">startBulkAirtimeLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : startBulkAirtimeLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">manageCustomersLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : manageCustomersLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">transactionExceptionsLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : transactionExceptionsLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">agentCommissionTransactionLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : agentCommissionTransactionLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">merchantBillSettlementLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : merchantBillSettlementLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerMerchantLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : registerMerchantLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">manageMerchantsLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : manageMerchantsLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">listTransactionRuleLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : listTransactionRuleLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">airtimeLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : airtimeLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">manageAdminUsersLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : manageAdminUsersLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">staffAgentListLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : staffAgentListLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">agentListLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : agentListLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">walletFundsLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : walletFundsLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">mangmenAgentstLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : mangmenAgentstLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">listCustomersLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : listCustomersLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">manageTransactionRuleLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : manageTransactionRuleLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerAgentLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : registerAgentLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">rolesLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : rolesLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">usersLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : usersLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerCustomersLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : registerCustomersLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">merchantListLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : merchantListLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fundWalletLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : fundWalletLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">changePasswordLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : changePasswordLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerTransactionRuleLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : registerTransactionRuleLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">financialSettlementLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed : financialSettlementLink()</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LinkCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mangmenAgentstLink</span>
+                <span class="method-start">31316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">agentListLink</span>
+                <span class="method-start">35354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">staffAgentListLink</span>
+                <span class="method-start">38338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerAgentLink</span>
+                <span class="method-start">41059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">manageMerchantsLink</span>
+                <span class="method-start">44393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">merchantListLink</span>
+                <span class="method-start">48078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerMerchantLink</span>
+                <span class="method-start">51006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">manageCustomersLink</span>
+                <span class="method-start">53812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listCustomersLink</span>
+                <span class="method-start">58452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerCustomersLink</span>
+                <span class="method-start">61107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">airtimeLink</span>
+                <span class="method-start">64067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">startBulkAirtimeLink</span>
+                <span class="method-start">68621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">financialSettlementLink</span>
+                <span class="method-start">71300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">merchantBillSettlementLink</span>
+                <span class="method-start">75967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">agentCommissionTransactionLink</span>
+                <span class="method-start">78682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">transactionExceptionsLink</span>
+                <span class="method-start">81392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">walletFundsLink</span>
+                <span class="method-start">84231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fundWalletLink</span>
+                <span class="method-start">88901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">manageTransactionRuleLink</span>
+                <span class="method-start">91460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listTransactionRuleLink</span>
+                <span class="method-start">96126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerTransactionRuleLink</span>
+                <span class="method-start">99112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reportsLink</span>
+                <span class="method-start">103199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">manageAdminUsersLink</span>
+                <span class="method-start">107746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rolesLink</span>
+                <span class="method-start">112432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usersLink</span>
+                <span class="method-start">115300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changePasswordLink</span>
+                <span class="method-start">119178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">124409 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
