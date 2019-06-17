@@ -33,13 +33,24 @@ public class TestMenu {
 	}
 	@Test //Handling duplicate web element
 	public void checkInfiBean() throws InterruptedException {
-		driver.navigate().to("https://www.infibeam.com/MyAccount.action");
+		driver.get("https://www.infibeam.com/MyAccount.action");
 		driver.findElement(By.id("new-account-btn")).click();
 		
 		driver.findElement(By.id("password")).sendKeys("mypassword");
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//form[@name='registration-form']")).findElement(By.id("password")).sendKeys("yourpassword");
-		Thread.sleep(2000);		
+		Thread.sleep(2000);	
+	}
+	@Test //Working with Frames
+	public void checkFrames() throws InterruptedException {
+		driver.get("https://seleniumhq.github.io/selenium/docs/api/java/index.html");
+		driver.switchTo().frame("classFrame");
+		driver.findElement(By.linkText("org.openqa.selenium.chrome")).click();
+		Assert.assertEquals(driver.getCurrentUrl(), "https://seleniumhq.github.io/selenium/docs/api/java/index.html");
+		driver.switchTo().defaultContent();
+		driver.switchTo().frame(1);
+		driver.findElement(By.linkText("AbstractHttpCommandCodec.CommandSpec")).click();
+		Thread.sleep(2000);
 	}
 	
 	@AfterClass
