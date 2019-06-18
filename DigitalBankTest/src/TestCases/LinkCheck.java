@@ -25,7 +25,7 @@ public class LinkCheck {
 		driver.findElement(By.id("password")).sendKeys("system");		
 		driver.findElement(By.xpath("//button[@class='form-control btn-block btn-lg primary-button btn']")).click();		
 	}
-	@Test(priority = 1,dependsOnMethods = "login")
+	@Test(priority = 1)
 	public void mangmenAgentstLink() throws InterruptedException {
 		clickDashboard();
 		Thread.sleep(1000);
